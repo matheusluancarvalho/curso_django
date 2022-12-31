@@ -17,9 +17,10 @@ from django.contrib import admin
 from django.http import HttpResponse
 from django.urls import path
 
-# Cliente faz uma HTTP Request e recebe um HTTP Response
+#  Cliente faz uma HTTP Request e recebe um HTTP Response
+#  HTTP Request
 
-#HTTP Request
+
 def my_view(request):
     return HttpResponse('Uma linda String')
     # return Http reponse
